@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679735171070",
+    "project_id": "beadando-b09b1",
+    "storage_bucket": "beadando-b09b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679735171070:android:7b34eaac4b06d17a2712af",
+        "android_client_info": {
+          "package_name": "com.example.beadando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679735171070-o56fmss4jb4163n7mp24kov280pif3t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeRgN9UV2Aid0F0Z2W9cciQ0KDVRGD4eI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679735171070-o56fmss4jb4163n7mp24kov280pif3t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

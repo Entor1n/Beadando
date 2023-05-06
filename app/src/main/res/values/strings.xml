@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Fyrestone Jewelery</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginButton">LoginButton</string>
+    <string name="registration">Registration</string>
+    <string name="user_name">User Name</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="password_confirmation">Password confirmation</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone_number">Phone number</string>
+    <string name="address">Address</string>
+    <string name="customer">Customer</string>
+    <string name="salesclerk">Salesclerk</string>
+    <string name="product_description">Product description.</string>
+    <string name="login_as_guest">Login as guest</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="item_placeholder">Item placeholder</string>
+    <string name="item_info_placeholder">Item info placeholder</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="delete">delete</string>
+    <string-array name="phone_types">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobil</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="shopping_item_names">
+        <item>Ring</item>
+        <item>Necklace</item>
+        <item>Watch</item>
+        <item>Bracelet</item>
+        <item>Earring</item>
+        <item>Pendant</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>This is a ring!</item>
+        <item>This is a necklace!</item>
+        <item>This is a watch!</item>
+        <item>This is a bracelet!</item>
+        <item>This is an earring!</item>
+        <item>This is a pendant!</item>
+    </string-array>
+
+    <array name="shopping_item_price">
+        <item>50 FF</item>
+        <item>35 FF</item>
+        <item>27 FF</item>
+        <item>15 FF</item>
+        <item>18 FF</item>
+        <item>30 FF</item>
+    </array>
+
+    <array name="shopping_item_image">
+        <item>@drawable/ring</item>
+        <item>@drawable/necklace</item>
+        <item>@drawable/watch</item>
+        <item>@drawable/bracelet</item>
+        <item>@drawable/earring</item>
+        <item>@drawable/pendant</item>
+    </array>
+
+    <array name="shopping_item_rates">
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>2.4</item>
+        <item>3</item>
+    </array>
+
+</resources>
