@@ -1,8 +1,7 @@
 package com.example.beadando;
 
 import android.content.Context;
-import android.media.Rating;
-import android.util.Log;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,14 +12,9 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.bumptech.glide.Glide;
-
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 public class ShoppingItemAdapter extends RecyclerView.Adapter<ShoppingItemAdapter.ViewHolder> implements Filterable {
@@ -50,10 +44,15 @@ public class ShoppingItemAdapter extends RecyclerView.Adapter<ShoppingItemAdapte
         holder.bindTo(currentItem);
 
         if(holder.getAdapterPosition() > lastPosition) {
+            Animation animation = AnimationUtils.loadAnimation(myContext, R.anim.rotation);
+            holder.itemView.startAnimation(animation);
+            lastPosition = holder.getAdapterPosition();
+        } else{
             Animation animation = AnimationUtils.loadAnimation(myContext, R.anim.slide_in_row);
             holder.itemView.startAnimation(animation);
             lastPosition = holder.getAdapterPosition();
         }
+
     }
 
     @Override

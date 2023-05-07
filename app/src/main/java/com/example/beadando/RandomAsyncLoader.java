@@ -26,14 +26,14 @@ public class RandomAsyncLoader extends AsyncTaskLoader<String> {
     public String loadInBackground() {
         Random random = new Random();
         int number = random.nextInt(5);
-        int ms = number * 200;
+        int ms = number * 300;
 
         try{Thread.sleep(ms);
         } catch (InterruptedException e){
             e.printStackTrace();
         }
 
-        return "Logged in as guest after " + ms + " ms!";
+        return "Click here to start shopping now";
 
     }
 }
